@@ -3,8 +3,8 @@ const morgan = require("morgan");
 const cors = require("cors");
 const app = express();
 const { body, validationResult } = require("express-validator");
-const userRoute = require("./routes/user.Routes");
-const newsRoute = require("./routes/news.Routes");
+const userRoute = require("./routes/userRoutes");
+const newsRoute = require("./routes/newsRoutes");
 
 require("./dataBase");
 
